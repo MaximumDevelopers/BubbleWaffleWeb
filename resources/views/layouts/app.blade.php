@@ -11,14 +11,13 @@
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <!-- Icons -->
+        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <Title>{{config('app.name', 'BubbleWaffle')}}</Title>
     </head>
     <body class="grey lighten-3 fixed-sn">
-        
-        <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
-        <script type="text/javascript" src="js/addons/datatables.js"></script>
 
         <header>
             @include('inc.navbar')
@@ -26,7 +25,8 @@
         </header>
         <main class="pt-5 mx-lg-5">
             <div class="container-fluid mt-5">
-             
+             <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+             <script type="text/javascript" src="{{ asset('js/addons/datatables.js') }}"></script>
                 @yield('content')
                
             </div>
