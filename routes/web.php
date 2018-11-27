@@ -18,3 +18,5 @@ Route::get('/about', 'PagesController@about');
 Route::get('/Msample', 'PagesController@Msample');
 
 Route::get('/accounts','PagesController@accounts');
+
+Route::get('/login','PagesController@login');

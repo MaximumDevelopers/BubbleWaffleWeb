@@ -16,6 +16,9 @@
     <Title>{{config('app.name', 'BubbleWaffle')}}</Title>
     </head>
     <body class="grey lighten-3 fixed-sn">
+        
+        <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+        <script type="text/javascript" src="js/addons/datatables.js"></script>
 
         <header>
             @include('inc.navbar')
@@ -23,7 +26,7 @@
         </header>
         <main class="pt-5 mx-lg-5">
             <div class="container-fluid mt-5">
-             <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+             
                 @yield('content')
                
             </div>

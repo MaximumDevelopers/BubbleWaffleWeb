@@ -9,5 +9,5 @@ require('./bootstrap');
 require('./popper.min');
 require('./jquery-3.3.1.min');
 require('./mdb.min');
-
+require('./custom');
 
