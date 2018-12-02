@@ -633,7 +633,16 @@
                                             </button>
                                         </div>
                                         <div class="modal-body">
-                                            ...
+                                                <div class="col-lg-4 col-sm-12">
+                                                        <!--Date select-->
+                                                        <select class="browser-default custom-select">
+                                                                <option selected>Open this select menu</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                              </select>
+                                                        <!--/Date select-->
+                                                    </div>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

@@ -53,7 +53,7 @@
                                               
                                                 <td>Jacob</td>
                                                 <td>Joel</td>
-                                                <td>JoelJakol@gmail.com</td>
+                                                <td>Joel@gmail.com</td>
                                                 <td>Cashier</td>
                                                 <td class="text-center">
                                                     <button type="button" class="fa fa-user-edit btn btn-yellow  btn-sm" style="font-size: 1rem;"></button>
@@ -79,8 +79,8 @@
                                               <tr>
                                                 <td>Canillas</td>
                                                 <td>keno</td>
-                                                <td>KenoChupa@gmail.com</td>
-                                                <td>Bitch namen</td>
+                                                <td>Keno@gmail.com</td>
+                                                <td>Janitor</td>
                                                 <td class="text-center">
                                                     <button type="button" class="fa fa-user-edit btn btn-yellow  btn-sm" style="font-size: 1rem;"></button>
                                                 </td>

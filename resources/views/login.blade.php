@@ -15,7 +15,7 @@
         <!-- Icons -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <Title>{{config('app.name', 'BubbleWaffle')}}</Title>
+    <Title>{{config('app.name', 'Cafe de\' Nilo')}}</Title>
     </head>
     <body class="grey lighten-3 fixed-sn">
 
@@ -23,6 +23,8 @@
             
         </header>
                 <!-- Default form login col-md-4 col-md-offset-4 -->
+                <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+             <script type="text/javascript" src="{{ asset('js/addons/datatables.js') }}"></script>
         <form class="card border border-light p-5 col-lg-6 offset-lg-3 mt-10 ">
             <div class="text-center">
 
@@ -32,7 +34,10 @@
             <input type="email" id="materialLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
 
             <!-- Password -->
-            <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+            <div class="md-form ml-0 mr-0">
+                    <input type="password" type="text" id="form1" class="form-control ml-0">
+                    <label for="form1" class="ml-0">Enter password</label>
+                </div>
 
             <div class="d-flex justify-content-around">
                 <div>

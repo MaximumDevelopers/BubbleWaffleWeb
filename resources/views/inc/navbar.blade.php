@@ -4,7 +4,7 @@
   
         <!-- Brand -->
         <a class="navbar-brand mx-auto txt">
-           <b>BUBBLEWAFFLE</b>
+           <b>Cafe de' Nilo</b>
         </a>
   
         <!-- Collapse -->

@@ -21,3 +21,6 @@ Route::get('/accounts','PagesController@accounts');
 
 Route::get('/login','PagesController@login');
  
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

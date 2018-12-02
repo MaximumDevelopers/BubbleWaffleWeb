@@ -8,7 +8,7 @@ class PagesController extends Controller
 {
     public function index()
     {
-        $Data = array('title' => 'Welcome to BubbleWaffle',
+        $Data = array('title' => 'Welcome to Cafe de\' Nilo',
                 'services' => ['Web Design', 'Programming', 'SEO']);
         return view('pages.index')->with($Data);
     }
